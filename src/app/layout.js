@@ -1,8 +1,9 @@
 // app/layout.js
-import NotificationPermission from "@/components/NotificationPermission";
+
+import NotificationPermission from "@/Components/NotificationPermission";
 
 export default function RootLayout({ children }) {
-  // Replace with actual user ID from your auth system (e.g., Firebase Auth)
+  // // Replace with actual user ID from your auth system (e.g., Firebase Auth)
   const userId = "example-user-id";
 
   return (
